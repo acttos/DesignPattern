@@ -13,4 +13,4 @@ This project is designed to implement commonly used design pattern in daily work
 
 ## 3. More info about design pattern
 
-I plan to write some blogs about design pattern, you can find them <a href="http://www.acttos.org/#blog",target="_blank">[ Here ]</a> sooner or later.
+I plan to write some blogs about design pattern, you can find them <a href='http://www.acttos.org/#blog',target='_blank'>[ Here ]</a> sooner or later.
