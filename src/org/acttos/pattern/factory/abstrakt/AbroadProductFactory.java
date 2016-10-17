@@ -2,7 +2,6 @@ package org.acttos.pattern.factory.abstrakt;
 
 import org.acttos.pattern.factory.AbroadProductA;
 import org.acttos.pattern.factory.AbroadProductB;
-import org.acttos.pattern.factory.AbstractFactory;
 import org.acttos.pattern.factory.AbstractProductA;
 import org.acttos.pattern.factory.AbstractProductB;
 
