@@ -11,7 +11,7 @@ import org.acttos.pattern.factory.AbstractProductB;
  * @version 1.0.0
  */
 public class Producer {
-	@SuppressWarnings("unused")
+
 	public static void main(String[] args) {
 		/**
 		 * Here we define two factories for 'Abroad' and 'Internal' products

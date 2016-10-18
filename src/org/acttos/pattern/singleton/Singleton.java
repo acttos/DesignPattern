@@ -28,11 +28,17 @@ public class Singleton {
 		return instance;
 	}
 	
+	public void doSomething() {
+		System.out.println("OK,I am doing something...");
+	}
+	
 	public static void main(String[] args) {
 		/**
 		 * Both of this lines below are ok. but I prefer the first one.
 		 */
 //		Singleton singleton = Singleton.sharedInstance();
 		Singleton singleton = Singleton.instance();
+		
+		singleton.doSomething();
 	}
 }
