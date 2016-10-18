@@ -11,6 +11,7 @@ import org.acttos.pattern.factory.AbstractProductB;
  * @version 1.0.0
  */
 public class Producer {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		/**
 		 * Here we define two factories for 'Abroad' and 'Internal' products
@@ -33,5 +34,13 @@ public class Producer {
 		/**
 		 * Here we can do anything we want.
 		 */
+		System.out.println(abroadProductFactory);
+		System.out.println(internalProductFactory);
+		
+		System.out.println(abstractAbroadProductA);
+		System.out.println(abstractInternalProductA);
+		
+		System.out.println(abstractAbroadProductB);
+		System.out.println(abstractInternalProductB);
 	}
 }

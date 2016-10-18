@@ -9,6 +9,14 @@ import org.acttos.pattern.factory.AbstractProductB;
  * @version 1.0.0
  */
 public abstract class AbstractFactory {
+	/**
+	 * Define a method to produce ProductA.
+	 * @return an instance of AbstractProductA.
+	 */
 	public abstract AbstractProductA createProductA();
+	/**
+	 * Define a method to produce ProductB.
+	 * @return an instance of AbstractProductB.
+	 */
 	public abstract AbstractProductB createProductB();
 }

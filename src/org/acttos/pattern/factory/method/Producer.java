@@ -40,7 +40,7 @@ public class Producer {
 		 */
 		System.out.println("These lines below create a product with the given implement of IMethodFactory."
 				+ "\n================================================================================\n");
-//		Product product = Producer.create(beijingFactory);
+//		Product product = Producer.create(beijingFactory);//Uncomment this line to verify the beijingFactory
 		Product product = Producer.create(shanghaiFactory);
 		
 		System.out.println("A product called '" + product.getName() + "' has been created.\n");
