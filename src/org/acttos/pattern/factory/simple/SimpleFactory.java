@@ -14,6 +14,14 @@ public class SimpleFactory {
 		super();
 	}
 
+	public static SimpleFactory instance() {
+		if (instance == null) {
+			instance = new SimpleFactory();
+		}
+
+		return instance;
+	}
+    
 	public static SimpleFactory getInstance() {
 		if (instance == null) {
 			instance = new SimpleFactory();
@@ -27,10 +35,5 @@ public class SimpleFactory {
 		Product product = new Product();
 		
 		return product;
-	}
-	
-	public static void main(String[] args) {
-		Product p = SimpleFactory.create();
-		System.out.println("A product called '" + p.getName() + "' has been created.");
 	}
 }
