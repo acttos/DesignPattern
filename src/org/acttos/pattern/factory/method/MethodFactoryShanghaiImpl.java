@@ -1,7 +1,7 @@
 package org.acttos.pattern.factory.method;
 
-import org.acttos.pattern.factory.Product;
-import org.acttos.pattern.factory.ShanghaiProduct;
+import org.acttos.pattern.factory.domains.Product;
+import org.acttos.pattern.factory.domains.ShanghaiProduct;
 
 /**
  * @author <a href="mailto:acttosma@gmail.com">Acttos</a>

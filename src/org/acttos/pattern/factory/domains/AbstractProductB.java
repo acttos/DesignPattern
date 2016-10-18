@@ -1,10 +1,10 @@
-package org.acttos.pattern.factory;
+package org.acttos.pattern.factory.domains;
 
 /**
  * @author <a href="mailto:acttosma@gmail.com">Acttos</a>
  * @version 1.0.0
  */
-public abstract class AbstractProductA {
+public abstract class AbstractProductB {
 	protected String name; 
 	/**
 	 * Get the name of a product, every product will implement this one

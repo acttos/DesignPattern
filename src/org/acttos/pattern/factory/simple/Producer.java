@@ -1,6 +1,6 @@
 package org.acttos.pattern.factory.simple;
 
-import org.acttos.pattern.factory.Product;
+import org.acttos.pattern.factory.domains.Product;
 
 /**
  * @author <a href="mailto:acttosma@gmail.com">Acttos</a>

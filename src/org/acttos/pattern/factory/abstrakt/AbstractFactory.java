@@ -1,7 +1,7 @@
 package org.acttos.pattern.factory.abstrakt;
 
-import org.acttos.pattern.factory.AbstractProductA;
-import org.acttos.pattern.factory.AbstractProductB;
+import org.acttos.pattern.factory.domains.AbstractProductA;
+import org.acttos.pattern.factory.domains.AbstractProductB;
 
 /**
  * The creator of product, the 'createProduct..' methods count is the same as the type of products

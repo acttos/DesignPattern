@@ -1,7 +1,7 @@
 package org.acttos.pattern.factory.abstrakt;
 
-import org.acttos.pattern.factory.AbstractProductA;
-import org.acttos.pattern.factory.AbstractProductB;
+import org.acttos.pattern.factory.domains.AbstractProductA;
+import org.acttos.pattern.factory.domains.AbstractProductB;
 
 /**
  * Here is a demo class shows how to use 'Design Pattern Abstract Factory'.

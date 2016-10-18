@@ -1,9 +1,9 @@
 package org.acttos.pattern.factory.abstrakt;
 
-import org.acttos.pattern.factory.AbroadProductA;
-import org.acttos.pattern.factory.AbroadProductB;
-import org.acttos.pattern.factory.AbstractProductA;
-import org.acttos.pattern.factory.AbstractProductB;
+import org.acttos.pattern.factory.domains.AbroadProductA;
+import org.acttos.pattern.factory.domains.AbroadProductB;
+import org.acttos.pattern.factory.domains.AbstractProductA;
+import org.acttos.pattern.factory.domains.AbstractProductB;
 
 /**
  * Only produces abroad products

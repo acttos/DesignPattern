@@ -1,10 +1,10 @@
-package org.acttos.pattern.factory;
+package org.acttos.pattern.factory.domains;
 
 /**
  * @author <a href="mailto:acttosma@gmail.com">Acttos</a>
  * @version 1.0.0
  */
-public class InternalProductA extends AbstractProductA {
+public class AbroadProductB extends AbstractProductB {
 
 	/* (non-Javadoc)
 	 * @see org.acttos.pattern.factory.AbstractProduct#marketZone()
@@ -12,7 +12,7 @@ public class InternalProductA extends AbstractProductA {
 	@Override
 	public String marketZone() {
 		// TODO Auto-generated method stub
-		return "Internal";
+		return "Abroad";
 	}
 
 }

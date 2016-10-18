@@ -1,4 +1,4 @@
-package org.acttos.pattern.factory;
+package org.acttos.pattern.factory.domains;
 
 /**
  * @author <a href="mailto:acttosma@gmail.com">Acttos</a>
