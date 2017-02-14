@@ -23,3 +23,11 @@ public class Inheritance {
 		System.out.println("\nMARK:\nThe inheritance design is bad, because the subclass depends on the implementation details of its superclass. If the superclass changes, the subclass may break.");
 	}
 }
+/**
+ * The following two items can guide the selection between inheritance and composition:
+ * 
+ * If there is an IS-A relation, and a class wants to expose all the interface to another class, inheritance is likely to be preferred.
+ * If there is a HAS-A relationship, composition is preferred.
+ * In summary, Inheritance and composition both have their uses, and it pays to understand their relative merits.
+ * 
+ */
