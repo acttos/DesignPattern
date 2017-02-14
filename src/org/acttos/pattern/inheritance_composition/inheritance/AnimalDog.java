@@ -1,4 +1,4 @@
-package org.acttos.pattern.inheritance_composition;
+package org.acttos.pattern.inheritance_composition.inheritance;
 
 /**
  * @author <a href="mailto:acttosma@gmail.com">Acttos</a>

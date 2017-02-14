@@ -1,4 +1,4 @@
-package org.acttos.pattern.inheritance_composition;
+package org.acttos.pattern.inheritance_composition.composition;
 
 /**
  * @author <a href="mailto:acttosma@gmail.com">Acttos</a>
@@ -56,18 +56,5 @@ public class Animal {
 	 */
 	public void setGender(String gender) {
 		this.gender = gender;
-	}
-	
-	public void eat() {
-		System.out.println("Animal eats foods.");
-	}
-	
-	public void standUp() {
-		System.out.println("Animal stands up");
-	}
-	
-	public void move() {
-		this.standUp();
-		System.out.println("Animal moves in many kinds of ways.");
 	}
 }

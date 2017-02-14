@@ -1,10 +1,13 @@
 package org.acttos.pattern.inheritance_composition;
 
+import org.acttos.pattern.inheritance_composition.inheritance.AnimalDog;
+import org.acttos.pattern.inheritance_composition.inheritance.AnimalEagle;
+
 /**
  * @author <a href="mailto:acttosma@gmail.com">Acttos</a>
  * @version 1.0.0
  */
-public class InheritanceVsComposition {
+public class Inheritance {
 	public static void main(String[] args) {
 		System.out.println("The implementation AnimalDog.move() is inherited from super class Animal, it depends on the implementation of super class Animal.");
 		System.out.println("When someone changes the implementation of super class Animal.move(), the output will change too. A bad design idea.");
