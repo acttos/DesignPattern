@@ -2,7 +2,7 @@
 
 ## 1. What is this eclipse project for ?
 
-The 'Design Pattern' project is a display of how to use design patterns in Java.
+The 'Design Pattern' project is a sample of how to use design patterns in Java.
 
 The packages in this project are named by design patterns. Each design pattern has used in my daily work, and they are useful.
 
